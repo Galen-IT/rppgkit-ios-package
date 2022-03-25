@@ -20,7 +20,8 @@ let package = Package(
             name: "galenit-package-rppg-sample",
             dependencies: [
                 "GalenitRPPG",
-                .product(name: "galenit_device_api", package: "Galenit.XP.Core_iOS")
+                .product(name: "galenit_device_api", package: "Galenit.XP.Core_iOS"),
+                .product(name: "GalenitBinah", package: "GalenitBinah_iOS")
             ]
         ),
         .binaryTarget(
