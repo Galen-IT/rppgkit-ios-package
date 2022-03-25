@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GalenitXpCore",
+        "repositoryURL": "git@github.com:Galen-IT/Galenit.XP.Core_iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "3d8301f1b3a1e58b6421e654e02327c393c21a80",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
