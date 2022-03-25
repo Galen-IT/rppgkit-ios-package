@@ -9,6 +9,15 @@
           "revision": "3d8301f1b3a1e58b6421e654e02327c393c21a80",
           "version": null
         }
+      },
+      {
+        "package": "GalenitBinah",
+        "repositoryURL": "git@github.com:Galen-IT/GalenitBinah_iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "e2ab5df44b7432e1b14bceb7e808b5d949500dd1",
+          "version": null
+        }
       }
     ]
   },

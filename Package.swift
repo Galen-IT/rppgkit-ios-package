@@ -12,7 +12,8 @@ let package = Package(
             targets: ["galenit-package-rppg-sample"]),
     ],
     dependencies: [
-        .package(url: "git@github.com:Galen-IT/Galenit.XP.Core_iOS.git", revision: "3d8301f1b3a1e58b6421e654e02327c393c21a80")
+        .package(url: "git@github.com:Galen-IT/Galenit.XP.Core_iOS.git", revision: "3d8301f1b3a1e58b6421e654e02327c393c21a80"),
+        .package(url: "git@github.com:Galen-IT/GalenitBinah_iOS.git", revision: "e2ab5df44b7432e1b14bceb7e808b5d949500dd1")
     ],
     targets: [
         .target(
