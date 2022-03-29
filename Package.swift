@@ -12,16 +12,22 @@ let package = Package(
             targets: ["galenit-package-rppg-sample"]),
     ],
     dependencies: [
-        .package(url: "git@github.com:Galen-IT/Galenit.XP.Core_iOS.git", revision: "3d8301f1b3a1e58b6421e654e02327c393c21a80"),
-        .package(url: "git@github.com:Galen-IT/GalenitBinah_iOS.git", revision: "e2ab5df44b7432e1b14bceb7e808b5d949500dd1")
+        .package(
+            url: "git@github.com:galen-it/xpcore-ios-package.git",
+            .rangeItem(.upToNextMinor(from: Version(1, 0, 1)))
+        ),
+        .package(
+            url: "git@github.com:galen-it/binah-ios-package.git",
+            .rangeItem(.upToNextMinor(from: Version(1, 0, 2)))
+        )
     ],
     targets: [
         .target(
             name: "galenit-package-rppg-sample",
             dependencies: [
                 "GalenitRPPG",
-                .product(name: "galenit_device_api", package: "Galenit.XP.Core_iOS"),
-                .product(name: "GalenitBinah", package: "GalenitBinah_iOS")
+                .product(name: "GalenitXpCore", package: "xpcore-ios-package"),
+                .product(name: "GalenitBinah", package: "binah-ios-package")
             ]
         ),
         .binaryTarget(
