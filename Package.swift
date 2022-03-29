@@ -1,15 +1,14 @@
 // swift-tools-version:5.5
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "galenit-package-rppg-sample",
+    name: "galenit-rppg",
     platforms: [.iOS(.v14)],
     products: [
         .library(
-            name: "galenit-package-rppg-sample",
-            targets: ["galenit-package-rppg-sample"]),
+            name: "GalenitRppgKit",
+            targets: ["GalenitRppgKit"]),
     ],
     dependencies: [
         .package(
@@ -23,7 +22,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "galenit-package-rppg-sample",
+            name: "GalenitRppgKit",
             dependencies: [
                 "GalenitRPPG",
                 .product(name: "GalenitXpCore", package: "xpcore-ios-package"),
@@ -32,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GalenitRPPG",
-            url: "https://github.com/Galen-IT/FlowVit_PublicSDKs_iOS/releases/download/v1.0.0/GalenitRPPG.xcframework.zip",
-            checksum: "51eebe5309088d88085fa2105ecb9e9dd6c033d8a22e32278cc81dbd8aedfe5d"
+            url: "https://github.com/Galen-IT/rppgkit-ios-package/releases/download/1.0.0/GalenitRPPG.xcframework.zip",
+            checksum: "6f6cf3e0d3f0503a461fb627818031eb315b231d01a1c305569c7277c53f5e69"
         )
     ]
 )
