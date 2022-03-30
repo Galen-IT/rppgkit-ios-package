@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 
 import PackageDescription
 
@@ -13,11 +13,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "git@github.com:galen-it/xpcore-ios-package.git",
-            .rangeItem(.upToNextMinor(from: Version(1, 0, 1)))
+            from: "1.0.1"
         ),
         .package(
             url: "git@github.com:galen-it/binah-ios-package.git",
-            .rangeItem(.upToNextMinor(from: Version(1, 0, 2)))
+            from: "1.0.2"
         )
     ],
     targets: [
