@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "galenit-binah",
-        "repositoryURL": "git@github.com:galen-it/binah-ios-package.git",
-        "state": {
-          "branch": null,
-          "revision": "448dc8aadbb8cabcafd9d61cda8c26ea39a8ae1a",
-          "version": "1.0.2"
-        }
-      },
-      {
-        "package": "galenit-xpcore",
-        "repositoryURL": "git@github.com:galen-it/xpcore-ios-package.git",
-        "state": {
-          "branch": null,
-          "revision": "22b9b36f18e90bf08daf5904947a6e21eeae8732",
-          "version": "1.0.1"
-        }
+  "pins" : [
+    {
+      "identity" : "binah-ios-package",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:galen-it/binah-ios-package.git",
+      "state" : {
+        "revision" : "448dc8aadbb8cabcafd9d61cda8c26ea39a8ae1a",
+        "version" : "1.0.2"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "xpcore-ios-package",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:galen-it/xpcore-ios-package.git",
+      "state" : {
+        "revision" : "e6641a92ac7a0a88ee9bf44b74fc432fbaece529",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
 }
