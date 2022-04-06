@@ -3,7 +3,7 @@
 import PackageDescription
 
 // ⚠️ ensure this flag is 'false' before commiting
-let localDependencies = true
+let localDependencies = false
 
 // MARK: - Package Configuration
 let package = Package(
