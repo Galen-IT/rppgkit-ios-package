@@ -3,7 +3,7 @@
 import PackageDescription
 
 // ⚠️ ensure this flag is 'false' before commiting
-let localDependencies = false
+let localDependencies = true
 
 // MARK: - Package Configuration
 let package = Package(
@@ -22,8 +22,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GalenitRPPG",
-            url: "https://github.com/Galen-IT/rppgkit-ios-package/releases/download/1.0.2/GalenitRPPG.xcframework.zip",
-            checksum: "d330453414f769c07974d929c1d54de38b2dae4b2c61276d2dc942de6b1ce4c6"
+            url: "https://github.com/Galen-IT/rppgkit-ios-package/releases/download/1.0.3/GalenitRPPG.xcframework.zip",
+            checksum: "c189eda0d0ef115645b3f57f66f669da0819e3b298426188e61126d2d4fc98cf"
         )
     ]
 )
