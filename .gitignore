@@ -1,8 +1,28 @@
+## User Data
+
+*.xcuserdatad
+
+# notes
+notes
+
+## OS X
+*.DS_Store
 .DS_Store
-/.build
-/.swiftpm
-/Packages
-/*.xcodeproj
-xcuserdata/
-DerivedData/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# fastlane
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+.build
+.swiftpm
+.idea
 *.resolved
+*.xcworkspace
+*.framework
+*.xcframework
