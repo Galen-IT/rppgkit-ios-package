@@ -22,7 +22,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GalenitRPPG",
-            url: "https://github.com/Galen-IT/rppgkit-ios-package/releases/download/1.0.4/GalenitRPPG.xcframework.zip",
+            url: "https://github.com/Galen-IT/rppgkit-ios-package/releases/download/1.0.5/GalenitRPPG.xcframework.zip",
             checksum: "27227781f2c8cf4e88a0e1ef98e9f3b605a0b1e460e3ce2e65fad23bb2514d4f"
         )
     ]
