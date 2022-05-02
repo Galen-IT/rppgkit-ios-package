@@ -33,7 +33,7 @@ extension Package {
     static var remoteDeps: [Package.Dependency] {
         [
             .package(url: "git@github.com:Galen-IT/xpcore-ios-package.git", from: "1.0.1"),
-            .package(url: "git@github.com:Galen-IT/binah-ios-package.git", from: "1.0.2"),
+            .package(url: "git@github.com:Galen-IT/binah-ios-package.git", from: "1.0.8"),
         ]
     }
 
